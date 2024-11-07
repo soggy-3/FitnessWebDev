@@ -1,0 +1,78 @@
+
+/* Flex container styles */
+.center-h1 {
+    text-align:center;
+    justify-content: center;
+    color: #f2f2f2;
+}
+
+.img-container{
+    text-align:center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly between the items */
+    gap: 20px; /* Space between the sections */
+    padding: 20px;
+}
+
+/* Flex item styles */
+.flex-item {
+    flex: 1; /* Allow each section to take equal space */
+    padding: 20px;
+}
+
+body{
+    background-color: #B0A990;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #39304A;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #202030;
+  }
+
+  /* Basic table styling */
+table {
+    
+    border-collapse: collapse; 
+    margin: 20px 0;
+}
+
+/* Table Header */
+th {
+    background-color: #39304A; 
+    color: white;              
+    padding: 10px;
+    text-align: center;        
+}
+
+/* Table Cells */
+td {
+    border: 1px solid #ddd;   
+    padding: 10px;
+    text-align: center;        
+}
+
+/* Alternate row background color */
+.filled {
+    background-color: #f2f2f2;
+}
+
+
+
